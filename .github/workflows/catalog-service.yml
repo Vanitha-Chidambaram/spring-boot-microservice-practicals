@@ -11,7 +11,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      working-directory: ${{env,rijubg-directory}}
+      working-directory: ${{env.working-directory}}
     steps:
       - uses: actions/checkout@v4
       - name: Setup Java 21
